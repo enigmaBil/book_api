@@ -1,17 +1,15 @@
 <?php
-
 /**
  * Created by VsCode.
- * User: Bilong Emmanule
+ * User: Bilong Emmanuel
  * Date: 16/09/22
  * Time: 11:58
  */
 
-    namespace App\Repositories;
+    namespace App\Repositories\Config;
 
     use App\Repositories\ResourceRepository;
-
-    use App\Models\Author;
+    use  App\Models\Config\Author;
 
     class AuthorRepository extends ResourceRepository{
 
